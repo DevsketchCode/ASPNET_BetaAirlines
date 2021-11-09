@@ -21,9 +21,14 @@
             Nullam eget nunc sagittis, condimentum leo in, semper mauris. Nullam sit amet placerat tellus. Morbi mauris dui, varius sit 
             amet nunc tincidunt, tristique vulputate metus. Suspendisse eget turpis leo. Maecenas condimentum, neque ut interdum tempor, 
             est ante euismod arcu, in faucibus nibh nisl vel nulla.
-
+        </p>
+        <p>
             Ut in tellus accumsan, gravida leo ac, malesuada mi. Suspendisse semper ipsum in mattis rhoncus. 
-            Praesent ac egestas risus. Morbi ultricies mauris non maximus convallis. Aenean suscipit, 
+            <span class="blockquote">
+                We'll fly you to the moon!
+            </span>
+            Praesent ac egestas risus. Morbi ultricies mauris non maximus convallis. 
+            Aenean suscipit, 
             dolor nec varius egestas, lectus neque semper massa, vitae porta turpis leo at erat. 
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis augue in ultricies sollicitudin. 
             Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
@@ -38,6 +43,4 @@
             nisl. Suspendisse congue egestas justo, a commodo dui tempor imperdiet.
         </p>
     </section>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="js/Slideshow.js"></script>
 </asp:Content>

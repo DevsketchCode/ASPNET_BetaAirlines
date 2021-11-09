@@ -8,7 +8,8 @@
 */
 
 body {
-
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3em;
 }
 
 header {
@@ -16,6 +17,17 @@ header {
     padding: 10px;
     width: 80%;
 }
+
+a, a:visited, a:active {
+    color: #84D4FF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5C778D;
+    text-decoration: underline;
+}
+
 
 footer {
     border-top: 1px solid #10174D;
@@ -28,13 +40,13 @@ footer {
 
 #mainSlideshow {
     width: 80%;
-    height: 400px;
+    height: 500px;
     text-align: center;
 }
 
 #mainSlideshow > div {
     display: flex;
-    flex-wrap;
+    flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     flex-direction: column;
@@ -49,10 +61,6 @@ footer {
     line-height: 2.5em;
     text-shadow: 4px 4px 10px #4C6E8C;
     width: auto;
-}
-
-#motto > span > span {
-
 }
 
 #mainNav {
@@ -79,6 +87,7 @@ footer {
 #MainNavigation ul.level1 a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
+    font-weight: bold;
     color: #5C778D;
     text-transform: uppercase;
 }
@@ -102,6 +111,10 @@ footer {
     bottom: 10px;
 }
 
+.slideshow img {
+    width: 100%;
+}
+
 .dancingFont {
     color: #000000;
     font-family: 'Dancing Script', cursive, Arial, Helvetica, sans-serif;
@@ -109,12 +122,74 @@ footer {
     font-size: 2em;
 }
 
+.content > p:first-child{
+    flex-basis: 100%;
+}
+
 .content {
     margin: 0 auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: space-around; 
     padding: 30px;
     width: 80%;
 }
+
+.content > h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.content p {
+    margin: 10px 50px;
+}
+
+.plan {
+    margin: 20px;
+    width: 50%;
+}
+
+.plan li {
+    display: flex;
+    flex-direction: row;
+}
+
+.planListHeading {
+    flex: 1 1 50px;
+    color: #10174D;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.planListHeading span {
+    margin-right: 10px;
+}
+
+.plan li p {
+    flex: 7;
+}
+
+
+.blockquote {
+    display: inline-block;
+    float: right;
+    border-top: 1px solid #10174D;
+    border-bottom: 1px solid #10174D;
+    padding: 10px 0;
+    margin: 20px 30px;
+    font-size: 125%;
+    font-style: italic;
+    width: 400px;
+    text-align: center;
+}
+
+/* Tablet */
+@media only screen and (max-width: 1500px) {
+
+}
+

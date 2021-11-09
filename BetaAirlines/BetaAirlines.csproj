@@ -69,15 +69,33 @@
   <ItemGroup>
     <Content Include="css\Main.css" />
     <Content Include="css\Reset.css" />
+    <Content Include="fontawesome5\attribution.js" />
+    <Content Include="fontawesome5\css\all.css" />
+    <Content Include="fontawesome5\css\all.min.css" />
+    <Content Include="fontawesome5\LICENSE.txt" />
+    <Content Include="fontawesome5\webfonts\fa-brands-400.svg" />
+    <Content Include="fontawesome5\webfonts\fa-regular-400.svg" />
+    <Content Include="fontawesome5\webfonts\fa-solid-900.svg" />
+    <Content Include="images\AirportTerminal.jpg" />
     <Content Include="images\BetaAirline_CompanyLogo.png" />
     <Content Include="images\BetaAirline_Logo.png" />
+    <Content Include="images\PlanATrip.jpg" />
+    <Content Include="images\Plan_Checklist.jpg" />
     <Content Include="images\Ticket_md.png" />
     <Content Include="images\WingPhoto.png" />
     <Content Include="js\Slideshow.js" />
+    <Content Include="Plan.aspx" />
     <Content Include="Web.config" />
     <Content Include="Default.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Plan.aspx.cs">
+      <DependentUpon>Plan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Plan.aspx.designer.cs">
+      <DependentUpon>Plan.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -96,6 +114,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Site.Master" />
+    <Content Include="fontawesome5\webfonts\fa-brands-400.eot" />
+    <Content Include="fontawesome5\webfonts\fa-brands-400.ttf" />
+    <Content Include="fontawesome5\webfonts\fa-brands-400.woff" />
+    <Content Include="fontawesome5\webfonts\fa-brands-400.woff2" />
+    <Content Include="fontawesome5\webfonts\fa-regular-400.eot" />
+    <Content Include="fontawesome5\webfonts\fa-regular-400.ttf" />
+    <Content Include="fontawesome5\webfonts\fa-regular-400.woff" />
+    <Content Include="fontawesome5\webfonts\fa-regular-400.woff2" />
+    <Content Include="fontawesome5\webfonts\fa-solid-900.eot" />
+    <Content Include="fontawesome5\webfonts\fa-solid-900.ttf" />
+    <Content Include="fontawesome5\webfonts\fa-solid-900.woff" />
+    <Content Include="fontawesome5\webfonts\fa-solid-900.woff2" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
