@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="BetaAirlines.BetaAirlines" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Beta Airlines</title>
+    <link href="css/Reset.css" rel="stylesheet" />
+    <link href="css/Main.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="siteform" runat="server">
+        <header>
+            <img src="images/BetaAirline_CompanyLogo.png" alt="Beta Airlines with logo" title="Beta Airlines Company Logo"/>
+            <nav id="mainNav">
+                <asp:Menu ID="MainNavigation" runat="server" DataSourceID="MainNavDatasource" Orientation="Horizontal" StaticDisplayLevels="2"></asp:Menu>
+            </nav>
+        </header>
+        <main>
+                <div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+        </main>
+    </form>
+    <footer>
+        <p><small>Copyright &copy; Beta Airlines 2021 - website by David Oberlander</small></p>
+    </footer>
+    <asp:SiteMapDataSource ID="MainNavDatasource" runat="server" ShowStartingNode="False" />
+</body>
+</html>

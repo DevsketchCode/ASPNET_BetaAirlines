@@ -1,0 +1,120 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+/* main colors: 
+    light blue: #b3d9ff;
+    blue: #5C778D;
+    mid blue: #4C6E8C;
+    dark blue: #10174D;
+*/
+
+body {
+
+}
+
+header {
+    margin: 0 auto;
+    padding: 10px;
+    width: 80%;
+}
+
+footer {
+    border-top: 1px solid #10174D;
+    padding: 30px 10px;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    color: #10174D;
+}
+
+#mainSlideshow {
+    width: 80%;
+    height: 400px;
+    text-align: center;
+}
+
+#mainSlideshow > div {
+    display: flex;
+    flex-wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#motto {
+    background-color: #b3d9ff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 2.5em;
+    text-shadow: 4px 4px 10px #4C6E8C;
+    width: auto;
+}
+
+#motto > span > span {
+
+}
+
+#mainNav {
+    display: inline-block;
+    padding-left: 50px;
+}
+
+#mainNav ul {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: space-between !important;
+    align-items: flex-end;
+}
+
+#MainNavigation ul.level1 > li {
+    margin: 10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #5C778D;
+    text-transform: uppercase;
+}
+
+#MainNavigation ul.level1 a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #5C778D;
+    text-transform: uppercase;
+}
+
+#MainNavigation > ul > li:hover {
+    text-decoration: underline;
+}
+
+.slideshow {
+    margin: 0px auto;
+    position: relative;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.dancingFont {
+    color: #000000;
+    font-family: 'Dancing Script', cursive, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.content {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    width: 80%;
+}
