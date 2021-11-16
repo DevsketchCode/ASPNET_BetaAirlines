@@ -3,7 +3,7 @@
   <siteMapNode url="" title="Top Level Node"  description="The top node of our xml document">
     <siteMapNode url="~/Default.aspx" title="Home"  description="The home page of the website" />
 	<siteMapNode url="~/Plan.aspx" title="Plan a Trip"  description="Plan a trip" />
-	<siteMapNode url="" title=""  description="Travel Information" />
+	<siteMapNode url="~/Contact.aspx" title="Contact Us"  description="A contact form to ask us a question or provide feedback." />
 	<siteMapNode url="" title=""  description="Contact Information" />
   </siteMapNode>
 </siteMap>

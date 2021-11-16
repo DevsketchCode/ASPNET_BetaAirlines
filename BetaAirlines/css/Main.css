@@ -13,6 +13,7 @@ body {
 }
 
 header {
+    border-bottom: 1px solid #5C778D;
     margin: 0 auto;
     padding: 10px;
     width: 80%;
@@ -30,7 +31,7 @@ a:hover {
 
 
 footer {
-    border-top: 1px solid #10174D;
+    border-top: 1px solid #5C778D;
     padding: 30px 10px;
     margin: 0 auto;
     width: 80%;
@@ -137,14 +138,38 @@ footer {
     width: 80%;
 }
 
-.content > h2 {
-    font-size: 2em;
+.content h2, .content legend {
+    display: inline-block;
+    font-size: 1.5em;
     font-weight: bold;
     margin: 10px;
 }
 
 .content p {
     margin: 10px 50px;
+}
+
+.flexBreak {
+   flex-basis: 100%;
+   height: 30px;
+}
+
+.dataViews {
+    justify-content: center;
+}
+
+.dataViews h3 {
+    font-weight: bold;
+    text-align: center;
+    padding: 20px
+}
+
+td {
+    padding: 2px 10px;
+}
+
+.selectedMessage tr > td:first-child {
+    text-align: right;    
 }
 
 .plan {
@@ -188,8 +213,100 @@ footer {
     text-align: center;
 }
 
+/* Contact Page */
+
+#ContentPlaceHolder1_ValidationSummary {
+    color: red;
+    font-style: italic;
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+
+fieldset {
+    border: 1px solid #5C778D;
+    padding: 20px;
+    margin: 20px;
+}
+
+legend {
+    text-align: left;
+}
+
+#contactFields {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+#contactFields span {
+    padding: 10px;
+}
+
+#contactFields span:first-child {
+    text-align: right;
+    width: 120px;
+}
+
+#contactFields input, textarea {
+    margin: 10px;
+    height: 20px;
+}
+
+#contactFields textarea {
+    width: 400px;
+    height: 60px;
+}
+
+#contactFields input[type=submit], #contactFields input[type=reset] {
+    width: 100px;
+}
+
+#formButtons {
+    margin-top: 20px;
+    margin-left: 140px;
+    text-align: left;
+}
+
+#contactFields input[type=submit] {
+    margin-right: 45px;
+}
+
+#formButtons.field {
+    justify-content: space-between;
+}
+
+.field {
+    display: flex;
+    flex-direction: row;
+}
+
+.confirmation h3 {
+    margin-left: 50px;
+}
+
+#viewMessages {
+    margin-left: 30px;
+}
+
+#viewMessages a {
+    color: #273498;
+    text-decoration: underline;
+}
+
+#viewMessages a:hover {
+    color: #4C6E8C;
+}
+
+#UserMessageFVContainer table {
+    width: 600px;
+    font-weight: bold;
+}
+
+#UserMessageFVContainer table span {
+    font-weight: normal;
+}
+
 /* Tablet */
 @media only screen and (max-width: 1500px) {
-
 }
 
