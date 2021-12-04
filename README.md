@@ -1,5 +1,3 @@
-# ASPNET_BetaAirlines
-CVTC Project project using ASP.NET WebForms with C# to create a BetaAirlines website.
 <h1>Beta Airlines</h1>
 This website was created using C# on the ASP.NET framework, taking advantage of WebForms. <br>
 This connects to an SQL Lite database that stores the contact messages, and I created a quick page to manage those messages. <br>
